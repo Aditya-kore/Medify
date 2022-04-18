@@ -35,13 +35,13 @@ const Admin_Signin = () => {
   // SIGN IN WITH EMAIL AND PASSWORD FUNCTION
   const handleSignin = (e) => {
     e.preventDefault();
+    console.log("clicked")
     if (email === "" || password === "") {
       return setEmailError("All fields are required!");
-    }
-
-    {
+    }else{
       admins.map((admin) => {
         if (admin.email === email) {
+          console.log("admin",admin)
           auth
             .signInWithEmailAndPassword(email, password)
             .then(() => {
@@ -66,6 +66,7 @@ const Admin_Signin = () => {
       });
     }
   };
+  
 
   return (
     <ThemeProvider theme={theme}>
@@ -94,7 +95,6 @@ const Admin_Signin = () => {
               {/* EMAIL TEXTFIELD */}
               <TextField
                 margin="normal"
-                required
                 fullWidth
                 id="email"
                 label="Email Address"
@@ -103,13 +103,11 @@ const Admin_Signin = () => {
                 autoFocus
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                error={emailError}
               />
 
               {/* PASSWORD TEXTFIELD */}
               <TextField
                 margin="normal"
-                required
                 fullWidth
                 name="password"
                 label="Password"
