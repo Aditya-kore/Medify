@@ -13,10 +13,10 @@ const Navbar = (props) => {
           variant="h3"
           color="inherit"
           align="center"
-          noWrap
+          
           sx={title}
         >
-          MEDICARE
+          MEDIFY
         </Typography>
       </Toolbar>
 

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import firebase from "./firebase";
+import './App.css';
 import { AuthProvider } from "./contexts/AuthContext";
 import { CssBaseline } from "@mui/material";
 // HOMEPAGE
@@ -62,7 +63,7 @@ const App = () => {
       {user ? (
         // ROUTES AVAILABLE IF THE USER IS AUTHENTICATED
         <>
-          <CssBaseline>
+          <CssBaseline className = 'app'>
             <Router>
               <AuthProvider>
                 <Switch>

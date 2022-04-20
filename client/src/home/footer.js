@@ -44,11 +44,11 @@ const Footer = () => {
       {/* COPYRIGHT */}
       <Container maxWidth="lg">
         <Typography variant="h5" align="center" gutterBottom sx={raleway}>
-          Medicare
+          Medify
         </Typography>
         <Copyright />
         <Typography variant="subtitle1" align="center" sx={raleway}>
-          Developed by Sneha Singh
+          Developed by Team Medify
         </Typography>
 
         <Grid container>
@@ -87,7 +87,7 @@ const Footer = () => {
               <EmailIcon />
               <Typography variant="body2">
                 {" "}
-                sneha.20198023@mnnit.ac.in{" "}
+                contact.medify@gmail.com{" "}
               </Typography>
             </IconButton>
             <IconButton href="#" sx={iconButton}>

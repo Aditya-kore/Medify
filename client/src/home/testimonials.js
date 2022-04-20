@@ -41,7 +41,7 @@ const Testimonials = () => {
                     special care our daughter was given by the doctors and
                     staff."
                   </Typography>
-                  <Typography variant="h6">- Norman</Typography>
+                  <Typography variant="h6">- Normal</Typography>
                 </CardContent>
               </Card>
             </Grid>
@@ -61,9 +61,9 @@ const Testimonials = () => {
                     sx={message}
                   >
                     "The waiting time for getting an appointment approved is too
-                    less and that's why I like Medicare!"
+                    less and that's why I like Medify!"
                   </Typography>
-                  <Typography variant="h6">- Nyisha</Typography>
+                  <Typography variant="h6">- Aisha</Typography>
                 </CardContent>
               </Card>
             </Grid>
@@ -86,7 +86,7 @@ const Testimonials = () => {
                     much time to wait at a hospital or visit a doctor
                     physically."
                   </Typography>
-                  <Typography variant="h6">- Frank</Typography>
+                  <Typography variant="h6">- Frankie</Typography>
                 </CardContent>
               </Card>
             </Grid>

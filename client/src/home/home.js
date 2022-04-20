@@ -21,7 +21,7 @@ const Home = () => {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Container maxWidth="lg" sx={{ backgroundColor: "#d7e8f4" }}>
+      <Container sx={{ backgroundColor: "#d7e8f4" , maxWidth:'1000rem !important'}}>
         {/* NAVBAR COMPONENT - links to various sections*/}
         <Navbar sections={sections} />
 

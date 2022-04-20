@@ -69,7 +69,7 @@ const Navbar = () => {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" noWrap component="div">
-            Medicare (Admin)
+            Medify (Admin)
           </Typography>
         </Toolbar>
       </AppBar>
