@@ -1,4 +1,4 @@
-<h1 align="center">MEDICARE</h1>
+<h1 align="center">MEDIFY</h1>
 
 <p>A mini project done by Aditya, Arnav, Jainam & Ujjwal</p>
 
