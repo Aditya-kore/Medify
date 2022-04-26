@@ -7,6 +7,7 @@ import {
   DialogTitle,
   DialogContent,
   DialogContentText,
+  MenuItem,
   Grid,
   TextField,
 } from "@mui/material";
@@ -53,6 +54,11 @@ const BloodGroup = (props) => {
       >
         <DialogTitle>Edit BloodGroup</DialogTitle>
         <form onSubmit={handleSubmit}>
+
+
+
+
+
           <DialogContent>
             <DialogContentText ref={descriptionElementRef} tabIndex={-1}>
               <Grid container spacing={1}>
@@ -66,7 +72,16 @@ const BloodGroup = (props) => {
                     fullWidth
                     size="small"
                     onChange={(e) => setBloodGroup(e.target.value)}
-                  />
+                  >
+                    <MenuItem value="A+">A+</MenuItem>
+                    <MenuItem value="AB+">AB+</MenuItem>
+                    <MenuItem value="B+">B+</MenuItem>
+                    <MenuItem value="O+">O+</MenuItem>
+                    <MenuItem value="A-">A-</MenuItem>
+                    <MenuItem value="B-">B-</MenuItem>
+                    <MenuItem value="O-">O-</MenuItem>
+                    <MenuItem value="AB-">AB-</MenuItem>
+                  </TextField>
                 </Grid>
               </Grid>
             </DialogContentText>
