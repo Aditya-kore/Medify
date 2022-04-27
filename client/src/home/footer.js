@@ -70,12 +70,7 @@ const Footer = () => {
               <FacebookIcon />
             </IconButton>
 
-            <Typography variant="h6" gutterBottom sx={footerTitle}>
-              Go back to top
-            </Typography>
-            <IconButton href="#" sx={iconButton}>
-              <ArrowUpwardIcon />
-            </IconButton>
+            
           </Grid>
 
           {/* CONTACTS */}
